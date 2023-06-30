@@ -107,11 +107,7 @@ INSTALLED_APPS = [
     'dj_rest_auth.registration',
     'corsheaders',
     'profiles',
-    'posts',
-    'comments',
-    'likes',
-    'followers',
-    'locations'
+    
 ]
 SITE_ID = 1
 MIDDLEWARE = [
