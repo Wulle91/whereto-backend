@@ -64,8 +64,8 @@ DEBUG = 'DEV' in os.environ
 ALLOWED_HOSTS = [
     'again-moments-d2bdd3c5ef83.herokuapp.com',
     'localhost',
-    'https://whereto-backend-2f902e48d670.herokuapp.com',
-    '8000-wulle91-whereto-li8el6zp344.ws-eu101.gitpod.io',
+    'https://whereto-backend-2f21048c299f.herokuapp.com',
+    '8000-wulle91-wheretobackend-z9fhz94lwa7.ws-eu101.gitpod.io',
 ]
 
 
@@ -107,7 +107,11 @@ INSTALLED_APPS = [
     'dj_rest_auth.registration',
     'corsheaders',
     'profiles',
-    
+    'posts',
+    'comments',
+    'likes',
+    'followers',
+    'locations'
 ]
 SITE_ID = 1
 MIDDLEWARE = [

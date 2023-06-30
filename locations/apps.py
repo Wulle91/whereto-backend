@@ -6,4 +6,4 @@ class LocationsConfig(AppConfig):
     name = 'locations'
 
     def ready(self):
-        import locations.signals 
+        import locations.signals
