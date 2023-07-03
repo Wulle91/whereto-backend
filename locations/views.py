@@ -22,6 +22,7 @@ class LocationList(generics.ListCreateAPIView):
     ]
     search_fields = [
         'name',
+        'address',
     ]
     ordering_fields = [
         'posts_count',

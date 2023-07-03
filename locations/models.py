@@ -10,6 +10,7 @@ class Location(models.Model):
 
     class Meta:
         ordering = ['-created_at']
+        unique_together = ['name', 'address']
 
     def __str__(self):
         return f'{self.name}'

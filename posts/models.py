@@ -8,6 +8,8 @@ class Post(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     name = models.CharField(max_length=255, blank=False, null=False)
+    address = models.CharField(max_length=255, default='')
+    image_url = models.URLField(blank=True, default='')
     title = models.CharField(max_length=255)
     content = models.TextField(blank=True)
     image = models.ImageField(

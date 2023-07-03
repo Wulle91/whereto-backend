@@ -27,5 +27,5 @@ class LocationSerializer(serializers.ModelSerializer):
         model = Location
         fields = [
             'id', 'name', 'address', 'followers_count', 'posts_count',
-            'image_url', 'is_following'
+            'image_url', 'is_following', 'address'
         ]
